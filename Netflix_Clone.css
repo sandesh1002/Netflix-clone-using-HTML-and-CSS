@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :first-child{
+    font-family: "poppins";
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero :nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero :nth-child(3){
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn{
+    padding: 3px 8px;
+    /* font-weight: bold; */
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border-radius: 1px solid white;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    color: white;
+    /* font-weight: 900; */
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.frist{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: 80px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    top: 9px;
+}
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 396px;
+}
+
+section.frist > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.frist > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.frist > div :nth-child(2){
+    font-size: 24px;
+}
+
+.box
